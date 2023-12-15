@@ -24,5 +24,6 @@ variable "instance_count"{
 
 variable "environment"{}
 variable "my_bucket_name" {}
+variable "my_bucket_name2" {}
 variable "my_sg_name1" {}
 variable "my_sg_name2" {}
