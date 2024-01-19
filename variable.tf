@@ -1,13 +1,13 @@
 variable "my_region"{
     description = "this is the region to deploy"
-    default = "us-east-2"
+    default = "us-east-1"
 }
 variable "tubi"{
     description = "this is my instance type"
     default = "t2.micro"
 }
 variable "my_ami"{
-    default = "ami-06d4b7182ac3480fa"
+    default = "ami-0e9107ed11be76fde"
     
 }
 
@@ -19,7 +19,7 @@ variable "my_port"{
 }
 
 variable "instance_count"{
-    default = 2
+    default = 1
 }
 
 variable "environment"{}
