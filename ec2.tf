@@ -7,8 +7,8 @@ resource "aws_instance" "techxcellency" {
   ami           = var.my_ami
   instance_type = var.tubi
   count = var.instance_count
-  #iam_instance_profile = "tawfiq"
-  iam_instance_profile = "tawtubiema"
+  iam_instance_profile = "tawfiq"
+  #iam_instance_profile = "tawtubiema"
   disable_api_termination = false
   disable_api_stop = false
   key_name = var.key
