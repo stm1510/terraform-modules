@@ -7,8 +7,7 @@ variable "tubi"{
     default = "t2.micro"
 }
 variable "my_ami"{
-    default = "ami-0e9107ed11be76fde"
-    
+    default = "ami-0e9107ed11be76fde"    
 }
 
 variable "key"{
